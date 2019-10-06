@@ -26,7 +26,7 @@ class CaseTest(unittest.TestCase):
 
     def test_login(self):
         text = test_model.login(self.browser)
-        self.assertEqual(text,'庾键俊','登录失败')
+        self.assertEqual(text,'法师打疯狂','登录失败')
 
 if __name__ == '__main__':
     unittest.main()
